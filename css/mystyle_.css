@@ -167,8 +167,8 @@ header{
 }
 
 .rightside_col2_section{
-    height: 30%;
-    /* background-color: springgreen; */
+    /* height: 30%; */
+    height: auto;
     /* margin: 12px; */
 }
 
@@ -183,7 +183,7 @@ header{
     color: #444;
     font-family: Raleway,sans-serif;
     text-transform: none;
-    line-height: 120px;
+   
     font-size: 17px;
     max-width: 50%;
 }
@@ -199,10 +199,6 @@ header{
 
 /* ****************** col2_section ends ****************** */
 
-
-/* #col2_section:nth-child(1){
-    margin-right: 5px;
-} */
 /***************** footer starts ****************** */
 
 footer{
@@ -217,11 +213,9 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-grow: 1;
-    /* background-color: teal; */
     height: 80px;
     /* flex-grow: 1;
     margin: 5px;
-    background-color: teal;
     height: 80px; */
 }
 .bottomDiv p {
