@@ -2,8 +2,9 @@ body{
     margin: 0 !important;
 }
 #white_space{
-    background-color: white;
-    width: 1500px;
+    background-color: whitesmoke;
+    /* width: 1500px; */
+    width: 100%;
 }
 
 /* **********************header starts****************** */
@@ -13,20 +14,18 @@ header{
     background-color:whitesmoke;
 }
 #logoDiv{
-    background-color: white;
     height: 80px;
     width: 160px;
-   margin-right: 3px;
+    /* margin-right: 3px; */
 }
 #navDiv{
-    background-color: white;
     width: 100%;    
 }
 #navDiv ul{
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 #navDiv ul li{
     list-style: none;
@@ -35,23 +34,22 @@ header{
 }
 #navDiv ul li:hover{
     color: teal;
+    cursor: pointer;
 }
 
 /* *******************header end********************* */
 /* *******************hero starts****************** */
 #hero{
-    /* background-color: blueviolet; */
     background-color: #f5f5f5;
     height: 620px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 #title_div{
-    /* background-color: pink; */
     background-color: #f5f5f5;
     height: 140px;
 }
 #title_div h2 {      
-    margin-left: 200px;
+    /* margin-left: 200px; */
     line-height: 1;
     letter-spacing: 1px;
     font-family: Raleway,sans-serif;
@@ -62,7 +60,7 @@ header{
     /* padding-bottom: -20px; */
 }
 #title_div span {      
-    margin-left: 200px;
+    /* margin-left: 200px; */
     font-family: Lato,sans-serif;
     font-weight: 50px;
     line-height: 10px;
@@ -71,9 +69,12 @@ header{
 }
 #heroPic{
     background-color: #f5f5f5;
-    position: absolute;
-    /* width: 100%; */
-    margin-left: 250px;
+    /* position: absolute; */
+    /* margin-left: 250px; */
+    display: flex;
+    justify-content: center;
+
+
 }
 
 
@@ -85,28 +86,28 @@ header{
     /* background-color: yellowgreen; */
     display: flex;
     justify-content: space-around;
-    height: 350px;
+    /* height: 350px; */
+    height: auto;
     margin-top:80px;
 
 }
 .oneThird_col3_section{
-    /* background-color: aquamarine; */
     flex-grow: 1;
     justify-content: space-between;
     margin: 10px;
 }
 .upper_col {
-    /* background-color: tan; */
-    height: 50%;
+    /* height: 50%; */
+    height: auto;
 }
 .upper_col img{
     height: 150px;
     margin-top: 7px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 .lower_col h3{
     text-align: justify;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     /* padding-top: -10px; */
     /* font-family: 'Baloo Thambi', cursive; */
     font-family: Raleway,sans-serif;
@@ -114,7 +115,7 @@ header{
 }
 .lower_col span{
     margin-top: -5px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     color: #444;
     font-family: Raleway,sans-serif;
     text-transform: none;
@@ -122,7 +123,7 @@ header{
     font-size: 17px;
 }
 .lower_col p{
-    padding-left: 80px;
+    /* padding-left: 80px; */
     font-family: Raleway,sans-serif;
     text-overflow: ellipsis;
     color: #444;
@@ -138,15 +139,16 @@ header{
     /* background-color: turquoise; */
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 50px;  
 }
 
 #col2_section img{
     /* width: 429px; */
     /* height: 214px; */
-    width: 400px;;
-    margin-left: 40px;
-    margin-top: 150px;
+    width: 400px;
+    /* width: 100%; */
+    /* margin-left: 40px; */
+    /* margin-top: 150px; */
 }
 .oneSecond_col2_section{
     /* background-color: darkolivegreen; */
@@ -154,13 +156,20 @@ header{
     flex-grow: 1;
     justify-content: space-around;
     height: 500px;
-    margin: 5px;    /* margin should be on center*/
+    align-items: center;
+    /* margin: 5px;    */
+}
+
+#left_col2_section{
+    display: flex;
+    width: 100%;
+    
 }
 
 .rightside_col2_section{
     height: 30%;
     /* background-color: springgreen; */
-    margin: 12px;
+    /* margin: 12px; */
 }
 
 .rightside_col2_section h3{
@@ -170,7 +179,7 @@ header{
     text-transform: uppercase;
 }
 .rightside_col2_section span{
-    padding-left: 90px;
+    /* padding-left: 90px; */
     color: #444;
     font-family: Raleway,sans-serif;
     text-transform: none;
@@ -179,7 +188,7 @@ header{
     max-width: 50%;
 }
 .rightside_col2_section p{
-    padding-left: 90px;
+    /* padding-left: 90px; */
     padding-top: 10px;
     font-family: Raleway,sans-serif;
     text-overflow: ellipsis;
@@ -221,4 +230,15 @@ footer{
     font-family: Lato,sans-serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+  
+}
+
 /***************** footer ends ****************** */
+
+/* *********************************   responsive code starts  ************************************* */
+
+
+    
